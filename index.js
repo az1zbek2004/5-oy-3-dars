@@ -75,7 +75,7 @@
 
     button.addEventListener('click', function() {
      
-            const shouldDelete = confirm("Do you really want to delete this card?");
+            const shouldDelete = confirm("Rostdan ham bu kartani oʻchirib tashlamoqchimisiz?");
             if (shouldDelete) {
                 const cardToRemove = document.querySelector(`li`);
                 cardToRemove.remove();
